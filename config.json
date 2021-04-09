@@ -1,0 +1,338 @@
+{
+  "testcenters": [
+    {
+      "name": "Apotheke am Ostplatz",
+      "address": "Prager Straße 36, 04317 Leipzig",
+      "telephone": "0341 2307981",
+      "openingHours": "Montag 10-13 Uhr, Donnerstag 11-14 Uhr, Freitag 9:30-12:30 Uhr, Terminvereinbarung über\n                        www.apotheke-leipzig.de,\n                        Achtung: geänderte Öffnungszeiten vom 29.03.-09.04.2021, bitte informieren Sie sich in der\n                        Apotehke"
+    },
+    {
+      "name": "Apotheke im Hauptbahnhof",
+      "address": "Willy-Brandt-Platz 5, 04109 Leipzig",
+      "telephone": "0341 1406080",
+      "openingHours": "Montag-Freitag 14-20 Uhr, Samstag 10-16 Uhr, Termine nur nach Onlineanmeldung über\n                        www.apotheke-leipzig.de"
+    },
+    {
+      "name": "Freudemann-Apotheke",
+      "address": "G.-Ellrodt-Straße 19, 04249 Leipzig",
+      "telephone": "0341 4241795",
+      "openingHours": "nur nach telefonischer Terminvergabe"
+    },
+    {
+      "name": "Goethe-Apotheke",
+      "address": "Leipziger Straße 81, 04178 Leipzig",
+      "telephone": "0341 4410748",
+      "openingHours": "Montag/Mittwoch/Donnerstag/Freitag 14-15 Uhr"
+    },
+    {
+      "name": "Hirsch Apotheke",
+      "address": "Zschampertaue 2, 04207 Leipzig",
+      "telephone": "0341 9422222",
+      "openingHours": "Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Händel Apotheke",
+      "address": "Wurzner Straße 151, 04318 Leipzig",
+      "telephone": "0341 2444888",
+      "openingHours": "Montag/Dienstag/Donnerstag/Freitag 8-12 und 13-17 Uhr, Mittwoch 8-12 Uhr"
+    },
+    {
+      "name": "Lux-Apotheke",
+      "address": "Gohliser Straße 24, 04155 Leipzig",
+      "telephone": "0341 9605030",
+      "openingHours": "Terminvergabe über die Webseite der Apotheke"
+    },
+    {
+      "name": "Park-Apotheke",
+      "address": "Antonienstraße 1, 04229 Leipzig",
+      "telephone": "Montag/Mittwoch/Freitag 11-13 Uhr, Dienstag 13-17:30 Uhr, Donnerstag 8-13 Uhr, Termine nur nach\n                        telefonischer\n                        Vereinbarung"
+    },
+    {
+      "name": "Petersbogen-Apotheke",
+      "address": "Petersstraße 36-44, 04109 Leipzig",
+      "telephone": "0341 35520333",
+      "openingHours": "Montag-Samstag 8-18 Uhr, Terminvergabe über die Webseite der Apotheke"
+    },
+    {
+      "name": "Schlehen-Apotheke OHG",
+      "address": "Stöhrerstraße 1, 04347 Leipzig",
+      "telephone": "0341 22903810",
+      "openingHours": "Montag-Freitag 8-20 Uhr, Terminvergabe unter www.terminland.de/schlehenapotheke"
+    },
+    {
+      "name": "Seume-Apotheke",
+      "address": "Dieskaustraße 455, 04249 Leipzig",
+      "telephone": "0341 426600",
+      "openingHours": "Montag-Freitag 8-9:30 Uhr und 17-18:30 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Sonnen-Apotheke",
+      "address": "Karl-Liebknecht-Straße 59, 04275 Leipzig",
+      "telephone": "0341 3016474",
+      "openingHours": "Montag-Freitag 10-18 Uhr nur nach Terminvereinbarung über\n                        https://www.sonnen-apotheke-leipzig.de/coronaschnelltest-onlinetermin.html"
+    },
+    {
+      "name": "Wilhelm-Tell-Apotheke",
+      "address": "Georg-Schumann-Straße 103-111, 04155 Leipzig",
+      "telephone": "0341 5861250",
+      "openingHours": "Montag-Freitag 9-12 Uhr und 14-18 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Zebra-Apotheke",
+      "address": "Kiewer Straße 30 04205 Leipzig Telefon 0341 415151",
+      "telephone": "Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "GesundheitsWerkstatt",
+      "address": "Leipziger Straße 88, 04178 Leipzig",
+      "telephone": "0341 4622 5020",
+      "openingHours": "Montag-Sonntag nach vorheriger Terminvereinbarung unter www.schnelltestboehlitz.de oder\n                        telefonisch"
+    },
+    {
+      "name": "Testcenter Corona Leipzig GbR",
+      "address": "Maximilian-Allee 16, 04129 Leipzig",
+      "telephone": "01521 2129741",
+      "openingHours": "Montag-Freitag 8-18 Uhr, Samstag-Sonntag 10-16 Uhr, Online-Terminvereinbarung unter\n                        www.testcenter-corona.de"
+    },
+    {
+      "name": "Teststation im Bruno-Plache-Stadion",
+      "address": "Connewitzer Straße 21, 04289 Leipzig",
+      "telephone": "03494 3762994 (auch PCR-Tests)",
+      "openingHours": "Montag/Mittwoch/Freitag 18-21 Uhr, Sonntag 10-12 Uhr, keine Terminvereinbarung nötig"
+    },
+    {
+      "name": "Apotheke Liebertwolkwitz",
+      "address": "Muldentalstraße 43, 04288 Leipzig - Liebertwolkwitz",
+      "telephone": "034297 986391",
+      "openingHours": "Online-Terminvereinbarung über www.corona.ia.de - telefonische Terminvereinbarung nur in\n                        Ausnahmefällen\n                        möglich!"
+    },
+    {
+      "name": "Apotheke Mockauer Post",
+      "address": "Mockauer Straße 121, 04357 Leipzig",
+      "telephone": "0341 6022904",
+      "openingHours": "Montag-Freitag 11-12 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Domos Apotheke",
+      "address": "Ludwigsburger Straße 18, 04209 Leipzig",
+      "telephone": "0341 42056400",
+      "openingHours": "Montag-Freitag 8-9 Uhr und 18-19 Uhr, Samstag 12-13 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Adler Apotheke",
+      "address": "Hainstraße 9, 04109 Leipzig",
+      "telephone": "0341 7107966",
+      "openingHours": "Termine nur nach Onlineanmeldung unter www.adler-leipzig.de"
+    },
+    {
+      "name": "Bären Apotheke",
+      "address": "Selliner Straße 15, 04207 Leipzig",
+      "telephone": "0341 710790",
+      "openingHours": "Montag-Freitag 8-18 Uhr, Termine unter www.baeren24.de"
+    },
+    {
+      "name": "Apotheke Holzhausen",
+      "address": "Stötteritzer Landstraße 28, 04288 Leipzig",
+      "telephone": "034297 42496",
+      "openingHours": "Montag-Freitag 8-18 Uhr, Samstag 8:30-11 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Kulturhof Gohlis, durchführende Praxis: InterMed Praxiszentrum MVZ",
+      "address": "Eisenacher Straße 72, 04155 Leipzig",
+      "telephone": "0341 55008344",
+      "openingHours": "Montag-Freitag 8-14 Uhr und 14:30-19 Uhr"
+    },
+    {
+      "name": "Apotheke Reudnitz",
+      "address": "Dresdner Straße 53, 04317 Leipzig",
+      "telephone": "0341 2462700",
+      "openingHours": "Montag-Freitag 9-12 Uhr und 14-17 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Johanniter-Unfall-Hilfe e. V.",
+      "address": "Torgauer Straße 231, Haus A EG, 04347 Leipzig",
+      "telephone": "0341 6962615",
+      "openingHours": "Montag-Freitag 8:30-12 Uhr und 13-17:30 Uhr, Anmeldung unter\n                        www.johanniter.de/coronatest-leipzig\n                        erforderlich"
+    },
+    {
+      "name": "Arnika-Apotheke",
+      "address": "Holzhäuser Straße 81, 04299 Leipzig",
+      "telephone": "0341 8617623",
+      "openingHours": "Montag 16-19 Uhr, Dienstag 13-17 Uhr, Mittwoch/Donnerstag 15-18 Uhr"
+    },
+    {
+      "name": "SC DHfK Leipzig e. V.",
+      "address": "Am Sportforum 10, 04105 Leipzig",
+      "telephone": "Montag/Mittwoch 9-20 Uhr, Dienstag/Donnerstag/Freitag 9-16 Uhr"
+    },
+    {
+      "name": "Liebig-Apotheke",
+      "address": "Windmühlenstraße 41, 04107 Leipzig",
+      "telephone": "0341 9604626",
+      "openingHours": "Montag-Freitag 10-12 Uhr, Terminvergabe unter www.terminland.eu/liebig-apo/"
+    },
+    {
+      "name": "Schultheiß Augenoptik & Hörgeräte e. Kfr.",
+      "address": "Kieler Straße 53, 04357 Leipzig",
+      "telephone": "0341 6014373",
+      "openingHours": "Montag-Freitag 10-12 Uhr und 13-15 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Herz-Apotheke",
+      "address": "Wittenberger Straße 81, 04129 Leipzig",
+      "telephone": "0341 9118180",
+      "openingHours": "Montag-Freitag 10-14 Uhr, Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "McMedi Apotheke Testzentrum",
+      "address": "Dessauer Straße 2, 04129 Leipzig",
+      "telephone": "Montag-Freitag 8-13 Uhr, Terminvereinbarungen über www.mc-medi-apotheke-testzentrum.de"
+    },
+    {
+      "name": "InterMed Praxiszentrum MVZ GmbH",
+      "address": "Stieglitzstraße 87, 04229 Leipzig",
+      "telephone": "0341 9260262",
+      "openingHours": "Montag/Donnerstag/Freitag 12:30-15 Uhr"
+    },
+    {
+      "name": "Kopfzentrum Leipzig",
+      "address": "Käthe-Kollwitz-Straße 64, 04109 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag-Freitag 8-20 Uhr, Samstag 9-15 Uhr, Sonntag 9-12 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder über\n                        www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Leipzig",
+      "address": "Fichtestraße 9, 04275 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag-Donnerstag 8-18 Uhr, Freitag 8-13 Uhr, Termine nach telefonischer Vereinbarung oder über\n                        www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Leipzig",
+      "address": "Landsberger Straße 4, 04157 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Mittwoch/Freitag 8-13 Uhr, Dienstag/Donnerstag 8-18 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Leipzig",
+      "address": "Straße am Park 2, 04209 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Donnerstag 8-18 Uhr, Dienstag/Mittwoch/Freitag 8-13 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Leipzig",
+      "address": "Waldstraße 62, 04109 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Dienstag/Donnerstag 8-18 Uhr, Mittwoch/Freitag 8-13 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Wahren",
+      "address": "Oststraße 2, 04317 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Freitag 8-13 Uhr, Dienstag/Mittwoch/Donnerstag 8-18 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Wahren",
+      "address": "Rudolph-Herrmann-Straße 33, 04299 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag 14-18 Uhr, Mittwoch 8-18 Uhr, Freitag 8-13 Uhr, Termine nach telefonischer Vereinbarung\n                        oder\n                        über\n                        www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzentrum Wahren",
+      "address": "Georg-Schumann-Straße 355, 04157 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Mittwoch 8-18 Uhr, Dienstag/Donnerstag/Freitag 8-13 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Kopfzenrum Thomaskirchhof",
+      "address": "Augustusplatz 5, 04109 Leipzig",
+      "telephone": "0341 33733100",
+      "openingHours": "Montag/Donnerstag 8-18 Uhr, Dienstag/Mittwoch/Freitag 8-13 Uhr, Termine nach telefonischer\n                        Vereinbarung\n                        oder\n                        über www.kopfzentrum-gruppe.de"
+    },
+    {
+      "name": "Gesundheitspraxis Cornelia Lindner",
+      "address": "Hans-Driesch-Straße 20, 04179 Leipzig",
+      "telephone": "0341 49690799",
+      "openingHours": "Termine nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Corona-Testambulanz des Universitätsklinikums Leipzig",
+      "address": "Haus am Park, Haus 7.2,Liebigstraße 22 a, 04103 Leipzig (Schnelltests, aber auch für\n                        Bestätigungs-PCR-Tests nach\n                        positivem Schnelltestergebnis)",
+      "telephone": "täglich 13-17 Uhr ohne Voranmeldung"
+    },
+    {
+      "name": "Beauty & Body Lounge",
+      "address": "Breitenfelder Straße 101, 04157 Leipzig",
+      "telephone": "0341 91859807",
+      "openingHours": "Montag-Sonntag nach vorheriger Terminvereinbarung unter www.schnelltestgohlis.de oder\n                        telefonisch"
+    },
+    {
+      "name": "Testcenter Corona Leipzig GbR",
+      "address": "Karl-Liebknecht-Straße 40, 04107 Leipzig",
+      "telephone": "0152 03987557",
+      "openingHours": "Montag-Freitag 8-18 Uhr, Samstag-Sonntag 10-16 Uhr, Online-Terminvereinbarung unter\n                        www.testcenter-corona.de"
+    },
+    {
+      "name": "Bürgertestzentrum am Rabensteinplatz 1",
+      "address": "Rabensteinplatz 1, 04103 Leipzig",
+      "telephone": "015678 326625",
+      "openingHours": "Montag 10-15 Uhr, Dienstag-Freitag nach telefonischer Vereinbarung"
+    },
+    {
+      "name": "Evangelisches Diakonissenkrankenhaus Leipzig gGmbH",
+      "address": "Georg-Schwarz-Straße 49, 04177 Leipzig",
+      "telephone": "Montag/Mittwoch/Freitag 8-17 Uhr, telefonische Terminvergabe unter 0341 444-5954"
+    },
+    {
+      "name": "Corona Testzentrum Karli 12",
+      "address": "Karl-Liebknecht-Straße 12, 04107 Leipzig",
+      "telephone": "0176 70102125",
+      "openingHours": "Montag-Freitag 8-19 Uhr, Samstag 10-18 Uhr, Terminvergabe auch online möglich unter\n                        https://leipzig-coronatest.com"
+    },
+    {
+      "name": "COMMUNITY TESTCENTER",
+      "address": "Industriestraße 95, 04229 Leipzig",
+      "telephone": "0341 92610723",
+      "openingHours": "Dienstag/Mittwoch/Donnerstag 7-13 Uhr, Freitag 12-19 Uhr, Terminvergabe unter\n                        www.lipsiaapotheke.de"
+    },
+    {
+      "name": "ASB-Teststation \"Am Sonnenpark\"",
+      "address": "Mattheuerbogen 6, 04289 Leipzig (neben REWE-Markt, Zufahrt über Franzosenallee)",
+      "telephone": "0341 8697690",
+      "openingHours": "Montag 8-12 Uhr, Dienstag 12-18 Uhr, Freitag 12-16 Uhr"
+    },
+    {
+      "name": "SIT International",
+      "address": "Wittenberger Straße 36, 04129 Leipzig",
+      "telephone": "Montag-Sonntag 8-20 Uhr"
+    },
+    {
+      "name": "Testzentrum der KV Sachsen am Flughafen Leipzig/Halle",
+      "address": "Flughafen Leipzig/Halle (Schnelltests, aber auch Bestätigungs-PCR-Tests nach positivem\n                        Schnelltestergebnis)",
+      "telephone": "Montag-Sonntag 16-20 Uhr, keine Terminvereinbarung nötig"
+    },
+    {
+      "name": "DeinTestzentrum.de/Testzentrum Felsenkeller",
+      "address": "Karl-Heine-Straße 32, 04229 Leipzig",
+      "telephone": "0341 23820530",
+      "openingHours": "Montag-Freitag 8-18 Uhr, Samstag 10-14 Uhr, Terminvergabe unter www.deintestzentrum.de"
+    },
+    {
+      "name": "Testzentrum Lindenau",
+      "address": "Lützner Straße 100, 04177 Leipzig",
+      "telephone": "0176 74453464 (Schnelltests, aber auch Bestätigungs-PCR-Tests nach\n                        positivem Schnelltestergebnis)",
+      "openingHours": "Öffnungszeiten 06.04.-11.04.21: Dienstag geschlossen, Mittwoch 10-14 Uhr, Donnerstag 8-12 Uhr,\n                        Freitag/Samstag\n                        geschlossen, Sonntag 8-16 Uhr, Terminvereinbarung unter testzentrumlindenau@gmail.com,\n                        Informationen\n                        unter\n                        Instagram: testzentrumlindenau"
+    },
+    {
+      "name": "Johanniter-Unfall-Hilfe e. V. - Testzentrum Gohlis Arkaden",
+      "address": "Lützowstraße 11, 2. OG, 04155 Leipzig",
+      "telephone": "0341 6962615",
+      "openingHours": "Montag-Freitag 8:30-12 Uhr und 13-17:30 Uhr, Anmeldung unter\n                        www.johanniter.de/coronatest-leipzig\n                        erforderlich"
+    },
+    {
+      "name": "Malteser Hilfsdienst e. V.",
+      "address": "Meusdorfer Straße 10-12, 04277 Leipzig",
+      "telephone": "0341 22536814",
+      "openingHours": "Montag/Dienstag/Freitag 7-14 Uhr, Mittwoch/Donnerstag 10-18 Uhr, Samstag 9-12 Uhr"
+    }
+  ]
+}

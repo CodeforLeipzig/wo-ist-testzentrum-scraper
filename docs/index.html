@@ -1,0 +1,86 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Wo ist Corona-Testcenter in Leipzig?</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <style>
+    #KarteMitPunkt {
+      height: 480px;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <div id="KarteMitPunkt" />
+  </p>
+  <script>
+    // Karte mit Mittelpunkt Leipzig erzeugen
+    var laengenGrad = 12.3742236;
+    var breitenGrad = 51.3399028;
+    var kartenMittelpunktKoordinaten = [breitenGrad, laengenGrad];
+    var zoomStufe = 11;
+    var karte = L.map('KarteMitPunkt').setView(kartenMittelpunktKoordinaten, zoomStufe);
+    // Hintergrundkarte setzen
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(karte);
+
+    $.ajaxSetup({
+      scriptCharset: "utf-8",
+      contentType: "application/json; charset=utf-8"
+    });
+    $.getJSON("leipzig.json", function (data) {
+      var geojsonEbene = L.geoJson(data);
+      karte.addLayer(geojsonEbene);
+
+      const content = data => {
+        const part1 = `
+          <div>
+            <b>Name:</b> ${data.title}</br>
+            <b>Adresse:</b> ${data.location}</br>
+            <b>Telefon:</b> ${data.telephone}</br>
+            <b>Öffnungszeiten:</b> ${data.opening_hours}</br>
+        `
+        if (data.hints) {
+          part2 = `
+            <b>Hinweise:</b><ul>
+              ${data.hints && data.hints.map(hint => "<li>" + hint + "</li>")}
+            </ul>
+            </div>
+          ` 
+          return part1 + part2;
+        } else {
+          return part1 + "</div>";
+        }
+      }
+      var geojsonEbenenHover;
+      geojsonEbene.on('mouseover', function (ereignis) {
+        var koordinaten = ereignis.layer.feature.geometry.coordinates;
+        if (karte) {
+          var eigenschaften = ereignis.layer.feature.properties
+          geojsonEbenenHover = L.popup()
+            .setLatLng([koordinaten[1], koordinaten[0]])
+            .setContent(content(eigenschaften))
+            .openOn(karte);
+        }
+      });
+      geojsonEbene.on('mouseout', function (ereignis) {
+        if (geojsonEbenenHover && karte) {
+          karte.closePopup(geojsonEbenenHover);
+          geojsonEbenenHover = null;
+        }
+      });
+    });
+  </script>
+</body>
+
+</html>
